@@ -4,7 +4,7 @@
   "description": "",
   "main": "directline.js",
   "scripts": {
-    "offline-directline": "node ./directline.js"
+    "start": "node ./directline.js"
   },
   "keywords": [],
   "author": "",

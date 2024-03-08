@@ -12,10 +12,10 @@ RUN npm install
 #Bundle app souce
 COPY . .
 
-EXPOSE 3000
+EXPOSE 3978
 
 CMD [ "npm", "start" ]
 
 
-# docker build . -t lenabe/directline-node-app
-# docker run -d --name directline -p 3000:3000 lenabe/directline-node-app
+# docker build . -t lenabe/bot-node-app
+# docker run -d --name bot -p 3978:3978 lenabe/bot-node-app
